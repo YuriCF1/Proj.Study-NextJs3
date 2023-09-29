@@ -1,3 +1,11 @@
+<!-- Notas:
+
+Outras páginas especiais
+not-found: redirecionar o erro 404
+template: igual ao layout, porém recarrega a cada troca de página
+error: redirecionado a cada erro https://nextjs.org/docs/pages/building-your-application/routing/custom-error#more-advanced-error-page-customizing
+ -->
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
