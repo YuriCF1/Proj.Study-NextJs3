@@ -2,7 +2,7 @@
 Notas:
 Por padrão, o Next sempre é estático, então uma requisição direta só será feita no build
 */
-'use client' //Necessário para roda o useRouter
+// 'use client' //Necessário para roda o useRouter
 
 import Link from "next/link";
 import { User } from "./components/User";
@@ -13,11 +13,16 @@ import { Suspense } from 'react'
 import { useRouter } from "next/navigation";
 
 
+export const metadata = {
+  title: 'Home'
+}
+
+
 // export const revalidate = 5; //Revalidando todas as requisições da página a cada 5 segundos.
 
 const Home = async () => {
   //  const {} = useRouter() //Há diversas funções úteis aqui, Ctrl Espaço nas chaves
-  const router = useRouter()
+  // const router = useRouter()
   // router.refresh()
 
   // function submit() {
